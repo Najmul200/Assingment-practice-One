@@ -11,7 +11,7 @@ h1{
     color: #FFF;
     font-size: 72px;
     text-align: center;
-   margin-top: 44px;
+    margin-top: 44px;
 }
 h2{
     color: #FFF;
@@ -25,6 +25,8 @@ h2{
     text-align: center;
     font-style: normal;
     font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
 
 }
 .holiday{
@@ -33,7 +35,8 @@ h2{
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    margin-top: 40px;
+    margin-top: 0;
+    padding-top: 0;
 }
 .all{
     color: #070211;
@@ -57,6 +60,7 @@ h2{
     margin: 50px auto 0 auto;
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 .wel{
     color: #FFF;
@@ -90,7 +94,7 @@ h2{
 
 }
 .Container{
-    background:linear-gradient(180deg, rgba(102, 37, 37, 0.1) 0%, rgba(86, 34, 34, 0) 100%);;
+    background:#e0dcdc;
     justify-content: center;
     width: 1320px;
     height: 482px;
@@ -100,7 +104,7 @@ h2{
 .Container>div>h3{
     text-align: center;
     font-size: 32px;
-    padding-top: 241px;
+    padding-top: 150px;
     
 }
 .now{
@@ -117,58 +121,122 @@ h2{
     color: #F00;
 }
 
-.Best>h2{
-    margin-top: 100px;
+.Best>h6{
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     color: #F00;
+    text-align: justify;
+    line-height: normal;
     
 }
-.Best>h1{
+.Best>.come{
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
     color: #070211;
-    margin-bottom: 10px;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: auto;
 
 }
-.Best>p{
+.Best>.day{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
 }
-.images>img{
+.images{
     border-radius: 364.844px;
-    background:url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
-    width: 364.844px;
-    height: 364.844px;
+    background:url(<path-to-image>), rgb(237, 1, 1) -91.279px 0px / 150.038% 100% no-repeat;
+    width: 360px;
+    height: 360px;
     flex-shrink: 0;
     justify-content: center;
 }
-.New-year>h1{
+.New-year>.year{
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     color: #F00;
-    margin-bottom: 10px;
+    padding: 0;
+
 }
-.New-year>p{
+.New-year>.new{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
+    width: 276px;
+   line-height: 24px;
+    text-align: justify;
+    padding: 0;
+    margin-left: 150px;
 }
 .New-year>img{
-    padding: 30px;
-    border: 15px solid #F00;
-    border-radius: 100%;
+    padding: 0px;
     margin: 0 50px;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-left: 150px;
 }
-.offer{
+.add{
     display: flex;
     justify-content: center;
-    mar
+    align-items: center;
+    background: #e0dcdc;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    margin: 100px auto;
+
+}
+.Best>h6, .come , .day{
+    margin:auto;
+    text-align: justify;
+    align-content: left;
+    padding: 0;
+    line-height: 20px;
+}
+.Best>day{
+    text-align: justify;
+    width: 393px;
+}
+.FUNCTIONAL>h5{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: normal;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.FUNCTIONAL>h1{
+    text-align:center;
+    font-size: 72px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: normal;
+    color: #070211;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+.colap{
+    color: #F00;
+}
+.FUNCTIONAL>p{
+    width: 1068px;
+    color: rgba(21, 18, 27, 0.523);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 500px;
+    padding: 0;
+    padding-top: 0;
+    margin-top: 0;
 }
